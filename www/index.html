@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+    The very first application
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" />
+    <title>Hello World</title>
+</head>
+
+<!--  BEGINS: Page style settings -->
+
+<style>
+    html {
+        font-family: inherit;
+        background-color: inherit;
+    }
+    
+    img {
+        width: 85%;
+    }
+    
+    p {
+        font-size: 1.5em;
+        padding-top: 10px;
+        text-align:center;
+    }
+</style>
+
+<!--  ENDS: Page style settings -->
+<!--  BEGINS: Content for our application -->
+
+<body class="container text-center">
+
+    <h1>Strawberry</h1>
+    <img src="img/maasikas.jpg">
+
+<p>
+
+The first garden strawberry was grown in Brittany, France during the late 18th century.[3] Prior to this, wild strawberries and cultivated selections from wild strawberry species were the common source of the fruit.
+
+The strawberry fruit was mentioned in ancient Roman literature in reference to its medicinal use. The French began taking the strawberry from the forest to their gardens for harvest in the 14th century. Charles V, France's king from 1364 to 1380, had 1,200 strawberry plants in his royal garden. In the early 15th century western European monks were using the wild strawberry in their illuminated manuscripts. The strawberry is found in Italian, Flemish, and German art, and in English miniatures.[citation needed] The entire strawberry plant was used to treat depressive illnesses.
+
+
+<!--  ENDS: Content for our application  -->
+
+</p>
+<h2>Quiz!</h2>
+    <button id="mybutton" type="button" class="btn btn-primary">How many strawberry plants had Charles V in his royal garden?</button>
+
+<!--  BEGINS: Script block  -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script>
+    $("#target").click(function() {
+        alert("Handler for .click() called.");
+    });
+</script>
+<!--  ENDS: Script block  -->
+
+</html>
